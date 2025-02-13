@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: rgb(47, 175, 96);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 10px 10px 10px black;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        header > p {
+            text-align: center;
+        }
+
+        nav {
+            background-color:rgb(54, 221, 21);
+            padding: 3px;
+            text-decoration: none;
+            text-align: right;
+            box-shadow: 1px 1px 1px black;
+        }
+        
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;   
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #assuntos {
+            background-color: lightgray;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        span {
+            color: rgb(46, 67, 187);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Notícias <span>TECH</span></p>
+      </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae voluptatem ratione cum, recusandae inventore cupiditate beatae nisi praesentium. Quod velit rerum ab temporibus corporis deleniti itaque maiores ratione voluptatum numquam.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
